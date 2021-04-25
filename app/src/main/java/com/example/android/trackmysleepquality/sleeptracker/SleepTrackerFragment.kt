@@ -68,8 +68,8 @@ class SleepTrackerFragment : Fragment() {
         val adapter = SleepNightAdapter()
         binding.sleepList.adapter = adapter
 
-//        val manager = GridLayoutManager(activity,3)
-//        binding.sleepList.layoutManager = manager
+        val manager = GridLayoutManager(activity,3)
+        binding.sleepList.layoutManager = manager
 
         // Add an Observer on the state variable for showing a Snackbar message
         // when the CLEAR button is pressed.
